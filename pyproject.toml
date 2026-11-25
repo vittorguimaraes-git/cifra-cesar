@@ -5,7 +5,7 @@ description = "Implementação da cifra de cesar"
 authors = [
     {name = "Vittor | Code",email = "vittorguimaraes.git@gmail.com"}
 ]
-requires-python = ">=3.13"
+requires-python = "^3.13"
 dependencies = [
 ]
 
