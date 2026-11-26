@@ -5,7 +5,7 @@ description = "Implementação da cifra de cesar"
 authors = [
     {name = "Vittor | Code",email = "vittorguimaraes.git@gmail.com"}
 ]
-requires-python = "^3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
 ]
 
@@ -17,5 +17,9 @@ build-backend = "poetry.core.masonry.api"
 [dependency-groups]
 dev = [
     "pytest (>=9.2.0,<10.0.0)",
-    "blue (>=0.9.1,<0.10.0)"
+    "isort (>=9.0.2,<10.0.0)",
+    "mkdocs (>=1.6.1,<2.0.0)",
+    "ruff (>=0.17.6,<0.18.0)",
+    "autopep8 (>=2.3.2,<3.0.0)",
+    "pip-audit (>=2.10.1,<3.0.0)",
 ]
